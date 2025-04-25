@@ -1,0 +1,120 @@
+.header {
+    display: flex; /* Distribuir elementos horizontalmente */
+    justify-content: space-between; /* Posicionar los elementos de forma equilibrada */
+    align-items: center; /* Centrar los elementos verticalmente */
+    background-color: white; /* Fondo blanco */
+    padding: 10px 20px; /* Espaciado interno */
+    border-bottom: 1px solid #ccc; /* Línea separadora abajo */
+  }
+  
+  /* Estilos para el logo (imagen del título y logo combinados) */
+  .logo img {
+    width: 200px; /* Tamaño ajustado de la imagen */
+    height: auto; /* Mantener proporciones */
+    display: block; /* Asegura que se comporte como un bloque */
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
+  }
+  
+  /* Estilos para el menú de navegación */
+  .main-nav .nav-list {
+    list-style: none; /* Quitar las viñetas */
+    display: flex; /* Mostrar los elementos en fila */
+    gap: 20px; /* Separación entre los enlaces */
+    margin: 0; /* Quitar márgenes predeterminados */
+    padding: 0; /* Quitar el relleno predeterminado */
+  }
+  
+  .main-nav .nav-list li a {
+    text-decoration: none; /* Quitar subrayado */
+    color: black; /* Texto en color negro */
+    font-weight: normal; /* Mantener el peso de la fuente ligero */
+  }
+  
+  /* Estilos para el ícono de búsqueda */
+  .search img {
+    width: 24px; /* Tamaño del ícono */
+    height: auto; /* Mantener proporciones */
+    cursor: pointer; /* Mostrar que es clicable */
+  }
+
+
+
+.titulo{
+  margin-top:70px;
+  margin-left:86px;
+}
+
+.disclaimer .disclaimer img{
+    width:800px;
+    height:auto;
+}
+.disclaimer{
+    padding-left:100px;
+    margin-top:100px;
+    background-color: bisque;
+}
+
+.image-box {
+    width: 48%; /* Ocupa la mitad del contenedor para dos columnas */
+    margin-bottom: 20px;
+    text-align: center; /* Centra todo dentro de este contenedor */
+    margin-top:80px;
+    columns:2;
+    margin-left:160px;
+    justify-content: space-between;
+    gap:500px;
+    
+  }
+  
+  .title-box img, 
+  .photo-box img {
+    display: block; /* Cada imagen en su línea */
+    margin: 0 auto; /* Centra horizontalmente las imágenes dentro de sus contenedores */
+    width: auto; /* Ajusta el ancho al contenedor */
+    height: auto; /* Mantén las proporciones originales */
+  }
+
+  .title-box img{
+    width:auto;
+    height:auto;
+    padding-top: 20px;
+    padding-bottom:30px;
+    margin-bottom:15px;
+    
+  }
+
+
+.ultimo surrealfoto img{
+    width:auto;
+    height:auto;
+    }
+
+.surreal{
+    margin-left:433px;
+    }
+
+.surrealtitulo{
+    padding-top: 20px;
+    padding-bottom:30px;
+    margin-bottom:15px;
+    margin-left:433px;
+    }
+  
+
+
+.footerP{
+    margin-top:100px;
+    margin-left:380px;
+  }
+  
+    .contacto{
+    margin-top:20px;
+    margin-left:55px;
+    
+    
+  }
+  
+    .footerNAV{
+    margin-left:50px;
+  
+  }
